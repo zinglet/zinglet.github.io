@@ -39,9 +39,6 @@ jobs:
           else
             echo "::notice::API key placeholder successfully replaced."
           fi
-          # Use grep to find and print the modified line
-          echo "--- Checking for the replaced API key ---"
-          grep "${{secrets.FIREBASE_WEB_API_KEY}}" main.dart.js
           echo "api key updation completed"
       - name: Setup Pages
         uses: actions/configure-pages@v5
