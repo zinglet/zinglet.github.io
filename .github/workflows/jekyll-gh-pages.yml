@@ -28,21 +28,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      # - name: Replace API Key
-      #   run: |
-      #     # Replace 'WEB_API_KEY_PLACEHOLDER' with the secret
-      #     sed -i "s|WEB_API_KEY_PLACEHOLDER|${{secrets.FIREBASE_WEB_API_KEY}}|g" main.dart.js
-      #     # Add a check to confirm the placeholder is gone
-      #     if grep -q "WEB_API_KEY_PLACEHOLDER" main.dart.js; then
-      #       echo "::error::The API key placeholder was not replaced!"
-      #       exit 1
-      #     else
-      #       echo "::notice::API key placeholder successfully replaced."
-      #     fi
-      #     # Use grep to find and print the modified line
-      #     echo "--- Checking for the replaced API key ---"
-      #     grep "${{secrets.FIREBASE_WEB_API_KEY}}" main.dart.js
-      #     echo "api key updation completed"
+      - name: Replace API Key
+        run: |
+          # Replace 'WEB_API_KEY_PLACEHOLDER' with the secret
+          sed -i "s|WEB_API_KEY_PLACEHOLDER|${{secrets.FIREBASE_WEB_API_KEY}}|g" main.dart.js
+          # Add a check to confirm the placeholder is gone
+          if grep -q "WEB_API_KEY_PLACEHOLDER" main.dart.js; then
+            echo "::error::The API key placeholder was not replaced!"
+            exit 1
+          else
+            echo "::notice::API key placeholder successfully replaced."
+          fi
+          # Use grep to find and print the modified line
+          echo "--- Checking for the replaced API key ---"
+          grep "${{secrets.FIREBASE_WEB_API_KEY}}" main.dart.js
+          echo "api key updation completed"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
