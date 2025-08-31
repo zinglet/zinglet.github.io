@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "c60dcabf39f1f209d0c38e03e3ba6092",
-"assets/AssetManifest.bin.json": "44ad60c96336c7b01adfb760bf096484",
-"assets/AssetManifest.json": "2ff34b39985d13b5983881fa89b93423",
+const RESOURCES = {"assets/AssetManifest.bin": "e27aba009fe0b13730b894d893fe2202",
+"assets/AssetManifest.bin.json": "cbaf7d391906ae30bf065f9ea84efd84",
+"assets/AssetManifest.json": "ec47453756b5b213f72c690a4833b4e0",
 "assets/assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
 "assets/assets/fonts/Poppins-Italic.ttf": "c1034239929f4651cc17d09ed3a28c69",
 "assets/assets/fonts/Poppins-Light.ttf": "fcc40ae9a542d001971e53eaed948410",
@@ -41,7 +41,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c60dcabf39f1f209d0c38e03e3ba6092
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "favicon.png": "607655a40abb81ca26de04da71f1a71a",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "8da7520da73380b5429a0098ac0e8c33",
+"flutter_bootstrap.js": "a82338e24b23361f160da32404455bef",
 "icons/apple-touch-icon.png": "eae2764b6a01ad059ac585f66c08fcc3",
 "icons/favicon.ico": "5ce73170cdd695fee1b02c56e83a3127",
 "icons/icon-192-maskable.png": "bb1cfc4fdbd94b00742091abf78a82c4",
@@ -52,7 +52,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c60dcabf39f1f209d0c38e03e3ba6092
 "icons/Icon-maskable-512.png": "25628d35dd8b578ac2dcca2578ab5be8",
 "index.html": "3974c8010608e23b5323686fc5fa3272",
 "/": "3974c8010608e23b5323686fc5fa3272",
-"main.dart.js": "ee9b86f3a0b1dbc1de72d9c78d076443",
+"main.dart.js": "d08fd659b6fcf549fe56013d73db81c0",
 "manifest.json": "309dfbba4f8c24ff10387bda2069b353",
 "splash/img/dark-1x.png": "9ba1d65673da5021c9c5df87f884e591",
 "splash/img/dark-2x.png": "2dd4f052acf0cf53af9602259a2b09e8",
