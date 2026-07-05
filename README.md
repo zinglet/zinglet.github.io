@@ -1,2 +1,0 @@
-# zinglet
-## zinglet.github.io
